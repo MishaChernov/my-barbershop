@@ -47,9 +47,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="main-info">
-                <div class="info-column-left">
-                    <legend>Мы используем только лучшие средства:</legend>
+            <div class="info-column-left">
+                <form class="main-info" action="#" method="get">
+                    <h3>Мы используем только лучшие средства:</h3>
                     <ul class="checkbox-brend">
                         <li>
                             <input type="checkbox" name="Baxter of california" id="baxter" checked>
@@ -76,110 +76,108 @@
                             <label for="american-crew">American crew</label>
                         </li>
                     </ul>
-                    <legend>Группы товаров:</legend>
+                    <h3>Группы товаров:</h3>
                     <ul class="group-products">
                         <li>
-                            <input type="radio" id="group-1">
+                            <input type="radio" id="group-1" name="group-1">
                             <label for="group-1">Бритвенные принадлежности</label>
                         </li>
                         <li>
-                            <input type="radio" id="group-2" checked>
+                            <input type="radio" id="group-2" name="group-2" checked>
                             <label for="group-2">Средства для ухода</label>
                         </li>
                         <li>
-                            <input type="radio" id="group-3">
+                            <input type="radio" id="group-3" name="group-3">
                             <label for="group-3">Аксессуары</label>
                         </li>
                     </ul>
                     <button class="btn" value="Показать">Показать</button>
+                </form>
                 </div>
-                <div class="info-column-right">
-                    <figure class="gallery-products">
-                        <ul class="products-list">
-                            <li>
-                                <img src="img/product-1.jpg" width="100" height="100" alt="Набор для путешествий"><br>
-                                <p>
-                                    Набор для путешествий<br>
-                                    <span class="text-uppercase">"Baxter of california"</span>
-                                </p><br>
-                                <div class="btn-price">
-                                    <span>2 900 руб.</span>
-                                    <a href="#" class="btn">Купить</a>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="img/product-2.jpg" width="100" height="100" alt="Увлажняющий кондиционер"><br>
-                                <p>
-                                    Увлажняющий кондиционер<br>
-                                    <span class="text-uppercase">"Baxter of california"</span>
-                                </p><br>
-                                <div class="btn-price">
-                                    <span>750 руб.</span>
-                                    <a href="#" class="btn">Купить</a>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="img/product-3.jpg" width="100" height="100" alt="Гель для волос"><br>
-                                <p>
-                                    Гель для волос<br>
-                                    <span class="text-uppercase">"Suavecito"</span>
-                                </p><br>
-                                <div class="btn-price">
-                                    <span>290 руб.</span>
-                                    <a href="#" class="btn">Купить</a>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="img/product-4.jpg" width="100" height="100" alt="Глина для укладки волос"><br>
-                                <p>
-                                    Глина для укладки волос<br>
-                                    <span class="text-uppercase">"American crew"</span>
-                                </p><br>
-                                <div class="btn-price">
-                                    <span>500 руб.</span>
-                                    <a href="#" class="btn">Купить</a>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="img/product-5.jpg" width="100" height="100" alt="Гель для волос"><br>
-                                <p>
-                                    Гель для волос<br>
-                                    <span class="text-uppercase">"American crew"</span>
-                                </p><br>
-                                <div class="btn-price">
-                                    <span>300 руб.</span>
-                                    <a href="#" class="btn">Купить</a>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="img/product-6.jpg" width="100" height="100" alt="Набор для бритья"><br>
-                                <p>
-                                    Набор для бритья<br>
-                                    <span class="text-uppercase">"Baxter of california"</span>
-                                </p><br>
-                                <div class="btn-price">
-                                    <span>3 900 руб.</span>
-                                    <a href="#" class="btn">Купить</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </figure>
-                    <div class="page-list">
-                        <ul>
-                            <li>
-                                <a href="#" class="btn-page active-page">1</a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-page active-page">2</a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-page active-page">3</a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-page active-page">4</a>
-                            </li>
-                        </ul>
+            <div class="info-column-right">
+                <figure class="gallery-products">
+                    <div class="product">
+                        <img src="img/product-1.jpg" width="100" height="100" alt="Набор для путешествий"><br>
+                        <p>
+                            Набор для путешествий<br>
+                            <span class="text-uppercase">"Baxter of california"</span>
+                        </p><br>
+                        <div class="btn-price">
+                            <span>2 900 руб.</span>
+                            <a href="#" class="btn">Купить</a>
+                        </div>
                     </div>
+                    <div class="product">
+                        <img src="img/product-2.jpg" width="100" height="100" alt="Увлажняющий кондиционер"><br>
+                        <p>
+                            Увлажняющий кондиционер<br>
+                            <span class="text-uppercase">"Baxter of california"</span>
+                        </p><br>
+                        <div class="btn-price">
+                            <span>750 руб.</span>
+                            <a href="#" class="btn">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="img/product-3.jpg" width="100" height="100" alt="Гель для волос"><br>
+                        <p>
+                            Гель для волос<br>
+                            <span class="text-uppercase">"Suavecito"</span>
+                        </p><br>
+                        <div class="btn-price">
+                            <span>290 руб.</span>
+                            <a href="#" class="btn">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="img/product-4.jpg" width="100" height="100" alt="Глина для укладки волос"><br>
+                        <p>
+                            Глина для укладки волос<br>
+                            <span class="text-uppercase">"American crew"</span>
+                        </p><br>
+                        <div class="btn-price">
+                            <span>500 руб.</span>
+                            <a href="#" class="btn">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="img/product-5.jpg" width="100" height="100" alt="Гель для волос"><br>
+                        <p>
+                            Гель для волос<br>
+                            <span class="text-uppercase">"American crew"</span>
+                        </p><br>
+                        <div class="btn-price">
+                            <span>300 руб.</span>
+                            <a href="#" class="btn">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="img/product-6.jpg" width="100" height="100" alt="Набор для бритья"><br>
+                        <p>
+                            Набор для бритья<br>
+                            <span class="text-uppercase">"Baxter of california"</span>
+                        </p><br>
+                        <div class="btn-price">
+                            <span>3 900 руб.</span>
+                            <a href="#" class="btn">Купить</a>
+                        </div>
+                    </div>
+                </figure>
+                <div class="page-list">
+                    <ul>
+                        <li>
+                             <a href="#" class="btn-page">1</a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-page">2</a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-page">3</a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-page">4</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
