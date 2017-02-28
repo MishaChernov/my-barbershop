@@ -1,0 +1,97 @@
+.body {
+    min-width: 1222px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main-menu {
+    float: left;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 780px;
+}
+
+.user-block {
+    float: right;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 140px;
+}
+
+.main-menu li {
+    display: inline-block;
+}
+
+.main-menu ul {
+    margin: 0;
+}
+
+.index-logo {
+    width: 368px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.features {
+    margin-bottom: 80px;
+}
+
+.features-item{
+    float: left; 
+    margin-right: 20px;
+    width: 300px;
+}
+
+.features-item:last-of-type {
+    float: right;
+    margin-right: 0;
+}
+
+.index-content {
+    padding: 50px 80px;
+    margin-bottom: 35px;
+}
+
+.index-content-left {
+    float: left;
+    width: 380px;
+    min-height: 330px;
+}
+
+.index-content-right {
+    float: right;
+    width: 300px;
+    min-height: 330px;
+}
+
+.main-footer {
+    margin-top: 100px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.footer-contacts {
+    float: left;
+    width: 320px;
+    margin-right: 80px;
+}
+
+.fotter-social {
+    float: left;
+    width: 140px;
+}
+
+.footer-copiright {
+    float: right;
+    width: 140px;
+}
