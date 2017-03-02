@@ -1,0 +1,162 @@
+body {
+    min-width: 1222px; 
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+    padding: 0 10px;
+}
+
+                /*ХЕДЕР*/
+.main-header .container {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.header-logo {
+    float: left;
+    width: 160px;
+}
+
+.main-menu {
+    float: left;
+    margin-left: 8px;
+}
+
+.main-menu ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: 35px;
+    padding: 0;
+}
+
+.main-menu li:last-child {
+    margin-right: 0;
+}
+
+.user-block {
+    float: right;
+    margin-right: 20px;
+}
+
+                /*МЕИН*/
+.main-link h2 {
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.main-link ul {
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    padding: 0;
+}
+
+.link-adress li {
+    display: inline-block;
+    margin-right: 35px; 
+    padding: 0;
+}
+
+.info-column-left {
+    float: left;
+    width: 220px;
+}
+
+.info-column-left .checkbox-brend{
+    padding: 0;
+    margin: 0;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.info-column-left li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.info-column-left .group-products{
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.info-column-left button {
+    margin-top: 40px;
+}
+
+.info-column-right {
+    float: right;
+    width: 700px;
+}
+
+.info-column-right  .product{
+    float: left;
+    min-height: 285px;
+    width: 220px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.info-column-right  .product:nth-of-type(3),
+.info-column-right  .product:nth-of-type(6){
+    margin-right: 0;
+}
+
+.info-column-right  .product:nth-of-type(4),
+.info-column-right  .product:nth-of-type(5),
+.info-column-right  .product:nth-of-type(6){
+    margin-bottom: 0;
+}
+
+.info-column-right  .info-product{
+    padding: 15px;
+}
+
+.info-column-right .page-list {
+    margin-top: 45px;
+}
+
+.page-list ul{
+    margin: 0;
+    padding: 0;
+}
+
+.page-list li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 5px;
+}
+
+                /*ФУТЕР*/
+.main-footer {
+    margin-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.footer-contacts {
+    float: left;
+    width: 320px;
+    margin-right: 80px;
+}
+
+.fotter-social {
+    float: left;
+    width: 160px;
+}
+
+.footer-copiright {
+    float: right;
+    width: 140px;
+}
