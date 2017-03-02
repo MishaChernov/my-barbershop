@@ -1,0 +1,144 @@
+body {
+    min-width: 1222px; 
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+    padding: 0 10px;
+}
+
+                /*ХЕДЕР*/
+.main-header .container {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.header-logo {
+    float: left;
+    width: 160px;
+}
+
+.main-menu {
+    float: left;
+    margin-left: 8px;
+}
+
+.main-menu ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: 35px;
+    padding: 0;
+}
+
+.main-menu li:last-child {
+    margin-right: 0;
+}
+
+.user-block {
+    float: right;
+    margin-right: 20px;
+}
+
+                /*МЕИН*/
+.main-link h2 {
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.main-content ul {
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.link-adress {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.link-adress li {
+    margin-right: 35px; 
+    display: inline-block;
+    padding: 0;
+}
+
+.main-info h1 {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.info-column-left {
+    float: left;
+    width: 380px;
+}
+
+.info-column-left ul{
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.info-column-left li:not(:last-child){
+    margin-bottom: 25px;
+}
+
+.info-column-left p{
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+.info-column-right {
+    float: right;
+    width: 460px;
+}
+
+.info-column-right table {
+    margin-top: 40px;
+    margin-bottom: 125px;
+    border-collapse: collapse;
+}
+
+.info-column-right td {
+    padding: 15px;
+    width: 230px;
+    border: 2px solid #000101;
+}
+
+.info-column-right td:last-child {
+    text-align: center;
+}
+
+                /*ФУТЕР*/
+.main-footer {
+    margin-top: 80px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.footer-contacts {
+    float: left;
+    width: 320px;
+    margin-right: 80px;
+}
+
+.fotter-social {
+    float: left;
+    width: 160px;
+}
+
+.footer-copiright {
+    float: right;
+    width: 140px;
+}
